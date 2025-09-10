@@ -117,14 +117,8 @@ To set up and run this project locally:
    git clone https://github.com/your-username/MediMeet.git
    cd MediMeet
    ```
-
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Environment Variables**:
-   - Create a `.env` file in the root directory and add the following:
+2. **Environment Variables**:
+   - Create a `.env` file in the backend folder:
      ```env
      MONGO_URI=your_mongodb_connection_string
      JWT_SECRET=your_jwt_secret
@@ -132,10 +126,19 @@ To set up and run this project locally:
      CLOUDINARY_NAME=your_cloudinary_name
      CLOUDINARY_API_KEY=your_cloudinary_api_key
      CLOUDINARY_SECRET_KEY =your_cloudinary_secret_key
-     ```
+     `
+
+3. **Run Backend**:
+   ```bash
+   cd backend
+   npm install
+   npm run dev
+   ```
 
 4. **Run the Application**:
+   - Open a new terminal:
    ```bash
+   cd frontend
    npm run dev
    ```
 

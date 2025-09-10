@@ -35,7 +35,6 @@
 ## Home Page
 
 - Features a user-friendly layout where users can:
-  - **Search for doctors** based on specialties.
   - **View top doctors** and their profiles.
   - Explore additional sections: About Us, Delivery Information, Privacy Policy, and Get in Touch.
 - **Footer** includes navigation links: Home, About Us, Delivery Info, Privacy Policy, Contact Us.
